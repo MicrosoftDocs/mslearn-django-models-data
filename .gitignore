@@ -348,3 +348,32 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Django
+# Get latest from https://github.com/django/django/blob/main/.gitignore
+*.egg-info/
+*.egg
+*.pot
+*.py[co]
+.tox/
+__pycache__
+MANIFEST
+dist/
+docs/_build/
+docs/locale/
+node_modules/
+tests/coverage_html/
+tests/.coverage
+build/
+tests/report/
+
+# Others
+.DS_Store
+.env
+env/
+venv/
+.venv/
+.cache/
+.pytest_cache/
+.idea/
+.vscode
